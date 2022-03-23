@@ -1,5 +1,10 @@
 ## Use Case 4 HoloLens 
 
+### Tech Leads
+- GinSiu Cheng (CSA) - gicheng@microsoft.com  
+- Halaa Menasy (Engineer) - hamenasy@microsoft.com 
+- Mark Mabe (CSA) - mark.mabe@microsoft.com
+
 ### Potential Technologies
 - HoloLens
 - Dynamics (cards)
