@@ -20,3 +20,18 @@ while working.
 
 Open Source Objective Build a baseline of code demonstrating the scenario so others can extend it by adding new scenarios and potentially use the code
 for a commercial solution in the space
+
+### Installing the Emulator 
+
+Download the HoloLens Emulator.
+
+Versions:
+
+[HoloLens 2 Emulator (Windows Holographic, version 21H2 March 2022 Update).](https://go.microsoft.com/fwlink/?linkid=2189132)
+[HoloLens Emulator (first Gen) and holographic project templates.](https://go.microsoft.com/fwlink/?linkid=2065980)
+
+You can find release notes and older builds of the HoloLens Emulator on the [HoloLens Emulator archive page.](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/hololens-emulator-archive)
+
+### How to Run 
+
+Follow [these instructions](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-hololens-emulator) to run the emulator on your machine
