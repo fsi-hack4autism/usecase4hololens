@@ -40,3 +40,7 @@ You can find release notes and older builds of the HoloLens Emulator on the [Hol
 ### How to Run 
 
 Follow [these instructions](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-hololens-emulator) to run the emulator on your machine
+
+
+### Resources 
+https://docs.microsoft.com/en-us/learn/paths/beginner-hololens-2-tutorials/
