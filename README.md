@@ -41,6 +41,17 @@ You can find release notes and older builds of the HoloLens Emulator on the [Hol
 
 Follow [these instructions](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-hololens-emulator) to run the emulator on your machine
 
+### Starter Tutorial 
+To kick start this hackathon we will begin with this simple project. 
+[Build your first HoloLens 2 Application with Unity](https://arvrjourney.com/build-your-first-hololens-2-application-with-unity-and-mrtk-2-3-0-5f431d8cca8)
+
+####  Pre Reqs
+
+- A Windows 10 computer
+- [Visual Studio 2019 community version](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16) installed with ‘Desktop development with C++’ and ‘Universal Windows Platform (UWP) development’. You can tick these two workloads during the installation process.
+- A HoloLens 2 device (or you can use the emulator - shown above)
+- Unity Hub with Unity 2019.3.X installed and the Universal Windows Platform (UWP). Again you can tick this module (UWP) during the installation process)
+- Unity Mixed reality Tool Kit (MRTK) version 2.3.0 — [Download from here](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.3.0/Microsoft.MixedReality.Toolkit.Unity.Foundation.2.3.0.unitypackage).
 
 ### Resources 
 https://docs.microsoft.com/en-us/learn/paths/beginner-hololens-2-tutorials/
