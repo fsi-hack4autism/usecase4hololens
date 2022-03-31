@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/facialcues/.vs/facialcues/v17
+/facialcues/bin/Debug/net6.0
+/facialcues/obj
