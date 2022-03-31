@@ -55,3 +55,4 @@ To kick start this hackathon we will begin with this simple project.
 
 ### Resources 
 https://docs.microsoft.com/en-us/learn/paths/beginner-hololens-2-tutorials/
+https://docs.microsoft.com/en-us/dynamics365/mixed-reality/guides/get-started
