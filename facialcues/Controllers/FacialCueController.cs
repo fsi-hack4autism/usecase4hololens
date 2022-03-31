@@ -20,7 +20,7 @@ namespace facialcues.Controllers
             return new FacialCue
             {
                 Expression = "Happy",
-                Rating = 6,
+                Rating = 7,
                 Summary = "Droopy Dog is happy",
                 Text = "I'm Happy"
             };
