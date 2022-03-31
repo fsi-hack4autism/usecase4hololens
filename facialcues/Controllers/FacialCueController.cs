@@ -1,4 +1,6 @@
+using facialcues.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace facialcues.Controllers
 {
@@ -14,16 +16,26 @@ namespace facialcues.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public ActionResult<FacialCue> Get()
+        [HttpGet("{imageName}", Name = "GetFacialExpression")]
+        public async Task<string> Get(string imageName)
         {
-            return new FacialCue
-            {
-                Expression = "Happy",
-                Rating = 7,
-                Summary = "Droopy Dog is happy",
-                Text = "I'm Happy"
-            };
+            var ed = new ExpressionDetector();
+            var imgUrl = Constants.FacesBlobUri + "/" + imageName;
+            var exp = await ed.GetExression(imgUrl);
+            return JsonConvert.SerializeObject(exp);
         }
+        //[HttpGet("url/{imageUrl}", Name = "GetFacialExpression")]
+        //public ActionResult<FacialCue> GetByUrl(string imageUrl)
+        //{
+        //    var ed = new ExpressionDetector();
+        //    var exp = ed.GetExression(imageUrl);
+        //    return new FacialCue
+        //    {
+        //        FaceExpression = new Expression(),
+        //        Rating = 7,
+        //        Summary = "Droopy Dog is happy",
+        //        Text = "I'm Happy"
+        //    };
+        //}
     }
 }
