@@ -24,18 +24,5 @@ namespace facialcues.Controllers
             var exp = await ed.GetExression(imgUrl);
             return JsonConvert.SerializeObject(exp);
         }
-        //[HttpGet("url/{imageUrl}", Name = "GetFacialExpression")]
-        //public ActionResult<FacialCue> GetByUrl(string imageUrl)
-        //{
-        //    var ed = new ExpressionDetector();
-        //    var exp = ed.GetExression(imageUrl);
-        //    return new FacialCue
-        //    {
-        //        FaceExpression = new Expression(),
-        //        Rating = 7,
-        //        Summary = "Droopy Dog is happy",
-        //        Text = "I'm Happy"
-        //    };
-        //}
     }
 }
