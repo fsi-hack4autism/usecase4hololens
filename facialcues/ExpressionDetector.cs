@@ -16,7 +16,7 @@ namespace facialcues
         }
         public async Task<List<Face>> GetExression(string imgUrl)
         {
-            if (!Authenticate()) return new List<Face> { new Face() };
+            if (!Authenticate()) return new List<Face> { new Face { ImageUrl = imgUrl } };
             return await DetectFaceExtract(imgUrl);
         }
 

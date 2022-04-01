@@ -16,17 +16,17 @@ namespace facialcues.Controllers
         }
 
         [HttpGet("{videoName}", Name = "GetFacialExpressions")]
-        public async Task<string> Get(string videoName)
+        public string Get(string videoName)
         {
             var ed = new ExpressionDetector();
             var vm = new VideoManager();
             var videoUrl = Constants.FacesBlobUri + "/" + videoName;
-            var videoFrames = await vm.SplitViedoIntoFrames(videoUrl);
-            foreach(var frame in videoFrames)
-            {
-                frame.Faces = await ed.GetExression(frame.ImageUrl);                
-            }
-            return JsonConvert.SerializeObject(videoFrames);
+            //var videoFrames = await vm.SplitViedoIntoFrames(videoUrl);
+            //foreach(var frame in videoFrames)
+            //{
+            //    frame.Faces = await ed.GetExression(frame.ImageUrl);                
+            //}
+            return "work in progress";
         }
     }
 }
