@@ -34,7 +34,7 @@ namespace facialcues
             var faces = new List<Face>();
             foreach (var detectedFace in detectedFaces)
             {
-                var face = new Face();
+                var face = new Face { ImageUrl = imgUrl};
                 face.Smile = detectedFace.FaceAttributes.Smile > 0.5;
                 if (detectedFace.FaceAttributes.Emotion.Happiness > 0.5) face.Emotion = "Happiness";
                 else if (detectedFace.FaceAttributes.Emotion.Sadness > 0.5) face.Emotion = "Sadness";
